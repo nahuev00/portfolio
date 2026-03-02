@@ -1,0 +1,31 @@
+---
+// Importamos los estilos globales (asegúrate de haber creado este archivo antes en src/styles/global.css)
+import '../styles/global.css';
+import { SnowBackground } from '../components/SnowBackground';
+
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description = "Mi Portafolio Profesional" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<script
+			src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"
+		></script>
+	</head>
+	<body class="text-gray-900 dark:text-white antialiased">
+		<SnowBackground client:load />
+		<slot />
+	</body>
+</html>
