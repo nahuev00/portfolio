@@ -68,7 +68,7 @@ export const Hero = () => {
               <div className="absolute inset-0 flex items-center justify-center text-gray-400">
                 <img
                   alt="profile"
-                  src="./../../public/yo.jpg"
+                  src="./yo.jpg"
                   className="w-full h-full object-cover"
                 />
                 <span className="sr-only">Foto de perfil</span>
