@@ -112,7 +112,7 @@ export const PROJECTS_DATA = [
       "Un panel de administración integral diseñado para gestionar múltiples tiendas virtuales desde un solo lugar. Permite el control total de inventario, categorías y configuraciones de tienda, exponiendo una API robusta para que cualquier frontend (tienda web) consuma los datos en tiempo real.",
     longDescription:
       "Este Dashboard CMS es una solución 'headless' desarrollada para centralizar la gestión de e-commerce. A diferencia de las plataformas cerradas, este sistema separa la administración de la visualización, permitiendo a los dueños de negocios gestionar sus productos de forma intuitiva mientras los desarrolladores conectan cualquier interfaz a través de su API.",
-    thumbnail: "../../public/cms2.webp",
+    thumbnail: "./cms2.webp",
     images: [
       "./cms1.webp",
       "./cms2.webp",
