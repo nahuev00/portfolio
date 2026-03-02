@@ -89,7 +89,7 @@ export const PROJECTS_DATA = [
       "Tailwind CSS",
       "Stripe",
     ],
-    link: "https://github.com",
+    link: "https://github.com/nahuev00/chat-PDF",
     demo: "https://demo.com",
   },
   {
@@ -102,7 +102,7 @@ export const PROJECTS_DATA = [
     thumbnail: "../../public/team-chat1.webp",
     images: ["../../public/team-chat1.webp", "../../public/team-chat2.webp"],
     tags: ["Next.js", "Typescript", "Prisma", "Clerk", "Shadcn", "Socket.io"],
-    link: "https://github.com",
+    link: "https://github.com/nahuev00/team-chat",
     demo: "https://demo.com",
   },
   {
@@ -130,7 +130,7 @@ export const PROJECTS_DATA = [
       "PostgreSQL",
       "Stripe",
     ],
-    link: "https://github.com",
+    link: "https://github.com/nahuev00/e-commerce-CMS",
     demo: "https://demo.com",
   },
   {
@@ -147,7 +147,7 @@ export const PROJECTS_DATA = [
       "../../public/ecommerce3.webp",
     ],
     tags: ["TypeScript", "Next.js", "Tailwind CSS", "Axios", "Shadcn"],
-    link: "https://github.com",
+    link: "https://github.com/nahuev00/e-commerce-client",
     demo: "https://demo.com",
   },
 ];
