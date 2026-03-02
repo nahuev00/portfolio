@@ -74,10 +74,10 @@ export const PROJECTS_DATA = [
       "Este proyecto transforma la lectura pasiva de documentos en una experiencia interactiva. Permite a los usuarios subir archivos PDF complejos y, mediante el uso de Large Language Models (LLMs) y procesamiento de lenguaje natural, extraer información específica en segundos.",
     thumbnail: "./chatPDF1.webp",
     images: [
-      "../../public/chatPDF1.webp",
-      "../../public/chatPDF2.webp",
-      "../../public/chatPDF3.webp",
-      "../../public/chatPDF4.webp",
+      "./chatPDF1.webp",
+      "./chatPDF2.webp",
+      "./chatPDF3.webp",
+      "./chatPDF4.webp",
     ],
 
     tags: [
@@ -99,8 +99,8 @@ export const PROJECTS_DATA = [
       "Un clon funcional de Discord desarrollado con React y TypeScript. Permite comunicación en tiempo real mediante chat de texto, canales de voz y videollamadas de alta calidad, con un sistema completo de gestión de servidores y roles.",
     longDescription:
       "Este proyecto es una réplica fullstack de Discord diseñada para ofrecer una experiencia de usuario fluida y reactiva. La arquitectura permite a los usuarios crear y personalizar sus propios servidores, organizar canales por categorías y gestionar miembros de forma dinámica.",
-    thumbnail: "../../public/team-chat1.webp",
-    images: ["../../public/team-chat1.webp", "../../public/team-chat2.webp"],
+    thumbnail: "./team-chat1.webp",
+    images: ["./team-chat1.webp", "./team-chat2.webp"],
     tags: ["Next.js", "Typescript", "Prisma", "Clerk", "Shadcn", "Socket.io"],
     link: "https://github.com/nahuev00/team-chat",
     demo: "https://demo.com",
@@ -114,12 +114,12 @@ export const PROJECTS_DATA = [
       "Este Dashboard CMS es una solución 'headless' desarrollada para centralizar la gestión de e-commerce. A diferencia de las plataformas cerradas, este sistema separa la administración de la visualización, permitiendo a los dueños de negocios gestionar sus productos de forma intuitiva mientras los desarrolladores conectan cualquier interfaz a través de su API.",
     thumbnail: "../../public/cms2.webp",
     images: [
-      "../../public/cms1.webp",
-      "../../public/cms2.webp",
-      "../../public/cms3.webp",
-      "../../public/cms4.webp",
-      "../../public/cms5.webp",
-      "../../public/cms6.webp",
+      "./cms1.webp",
+      "./cms2.webp",
+      "./cms3.webp",
+      "./cms4.webp",
+      "./cms5.webp",
+      "./cms6.webp",
     ],
     tags: [
       "Next.js",
@@ -140,11 +140,11 @@ export const PROJECTS_DATA = [
       "E-commerce de alto rendimiento desarrollado con Next.js y TypeScript, enfocado en la velocidad de carga, SEO optimizado y una experiencia de usuario fluida mediante una arquitectura moderna",
     longDescription:
       "E-commerce de alto rendimiento desarrollado con Next.js y TypeScript, enfocado en la velocidad de carga, SEO optimizado y una experiencia de usuario fluida mediante una arquitectura moderna",
-    thumbnail: "../../public/ecommerce1.webp",
+    thumbnail: "./ecommerce1.webp",
     images: [
-      "../../public/ecommerce1.webp",
-      "../../public/ecommerce2.webp",
-      "../../public/ecommerce3.webp",
+      "./ecommerce1.webp",
+      "./ecommerce2.webp",
+      "./ecommerce3.webp",
     ],
     tags: ["TypeScript", "Next.js", "Tailwind CSS", "Axios", "Shadcn"],
     link: "https://github.com/nahuev00/e-commerce-client",
