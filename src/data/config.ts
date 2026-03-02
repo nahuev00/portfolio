@@ -72,7 +72,7 @@ export const PROJECTS_DATA = [
       "Aplicación interactiva que utiliza Inteligencia Artificial para analizar documentos PDF y responder preguntas en tiempo real mediante un chat inteligente.",
     longDescription:
       "Este proyecto transforma la lectura pasiva de documentos en una experiencia interactiva. Permite a los usuarios subir archivos PDF complejos y, mediante el uso de Large Language Models (LLMs) y procesamiento de lenguaje natural, extraer información específica en segundos.",
-    thumbnail: "portfolio/public/chatPDF1.webp",
+    thumbnail: "/portfolio/public/chatPDF1.webp",
     images: [
       "../../public/chatPDF1.webp",
       "../../public/chatPDF2.webp",
